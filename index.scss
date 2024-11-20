@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+    color: red;
+}
+
+.userItem{
+    list-style: none;
+    width: 400px;
+    padding: 16px;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px lightgray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    li{
+        display: flex; 
+        align-items: left;
+    }
+}
